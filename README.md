@@ -1,7 +1,7 @@
 # Gestor de Tareas Personal Full Stack UTN
 Este proyecto es un Gestor de Tareas Personal Full Stack diseñado para ayudarte a organizar y mantener un seguimiento eficiente de tus actividades. Permite la creación, búsqueda y visualización de tareas con una interfaz intuitiva y funcionalidades robustas.
 
-Características Principales
+## Características Principales
 Creación de Tareas: Un formulario dedicado para añadir nuevas tareas con los siguientes campos:
 
 Nombre de la Tarea: Título descriptivo de la actividad.
@@ -9,6 +9,8 @@ Nombre de la Tarea: Título descriptivo de la actividad.
 Descripción (Opcional): Detalles adicionales sobre la tarea. 
 
 Fecha de Vencimiento (Opcional): Fecha límite para completar la tarea.
+
+Lista de Tareas Creadas: Con boton para editar total o parcialmente una tarea, y boton para eliminar una tarea.
 
 Buscador de Tareas: Funcionalidad para encontrar tareas específicas de manera rápida y sencilla, Por nombre de tarea o decripcion.
 
