@@ -12,9 +12,9 @@ Fecha de Vencimiento (Opcional): Fecha límite para completar la tarea.
 
 Lista de Tareas Creadas: Con boton para editar total o parcialmente una tarea, y boton para eliminar una tarea.
 
-Buscador de Tareas: Funcionalidad para encontrar tareas específicas de manera rápida y sencilla, Por nombre de tarea o decripcion.
+Buscador de Tareas: Funcionalidad para encontrar tareas específicas de manera rápida y sencilla, Por nombre de tarea o descripcion.
 
-Calendario y Agenda: Visualiza tus tareas por fecha asignada, permitiéndote tener una vista clara de tu programación y compromisos.
+Calendario y Agenda: Visualiza tus tareas por fecha asignada, permitiéndote tener una vista clara de tus tareas y compromisos.
 Puedes Clickear en circulo del calendario o en la agenda para consultar las tareas 
 
 ## Tecnologías Utilizadas
@@ -28,11 +28,11 @@ Express.js: Framework web minimalista y flexible para Node.js, utilizado para co
 
 MongoDB: Base de datos NoSQL orientada a documentos para el almacenamiento de la información de las tareas.
 
-   cors
+cors
 
-   dotenv
+dotenv
 
-   mongoose
+mongoose
 
 ### Frontend:
 
