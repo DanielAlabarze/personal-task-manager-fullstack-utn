@@ -54,6 +54,12 @@ react-router-dom
 ### Swagger:
 Herramienta para la documentación y prueba de la API.
 
+React: Biblioteca de JavaScript para construir interfaces de usuario interactivas.
+
+react-dom
+
+react-resizable-panels
+
 
 ## Estructura del Proyecto
 #### El proyecto está dividido en tres componentes principales:
