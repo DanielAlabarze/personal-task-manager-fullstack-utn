@@ -1,0 +1,6 @@
+{
+    "title": "Ejemplo de Tarea Nueva",
+    "description": "Esta es una descripción para una tarea de ejemplo",
+    "completed": false,
+    "dueDate": "2025-07-30T17:00:00Z"
+}

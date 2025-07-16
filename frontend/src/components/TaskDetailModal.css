@@ -1,0 +1,122 @@
+.task-detail-modal-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.task-detail-modal-content h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+.task-summary-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  margin-bottom: 15px;
+}
+
+.task-summary-title {
+  font-size: 1.3em;
+  color: #4a69bd;
+  margin-bottom: 10px;
+  text-align: center;
+  border-bottom: 1px dashed #ddd;
+  padding-bottom: 8px;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted #b8b6b6;
+}
+
+.detail-item:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.detail-item strong {
+  color: var(--text-color);
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.detail-item span {
+  color: var(--light-text-color);
+  font-size: 1.1em;
+  line-height: 1.4;
+}
+
+.detail-item .completed {
+  color: var(--primary-dark-color);
+  font-weight: bold;
+}
+
+.detail-item .pending {
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.task-separator {
+  border: 0;
+  border-top: 1px dashed #ccc;
+  margin: 20px 0;
+}
+
+.close-detail-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 20px;
+  align-self: center;
+  transition: background-color 0.3s ease;
+}
+
+.close-detail-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .task-detail-modal-content {
+    padding: 15px;
+    width: 95%;
+  }
+  .task-detail-modal-content h2 {
+    font-size: 1.5em;
+  }
+  .detail-item span {
+    font-size: 1em;
+  }
+  .close-detail-button {
+    padding: 8px 15px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-height: 700px) {
+  .task-detail-modal-content {
+    max-height: 70vh;
+  }
+}

@@ -1,0 +1,43 @@
+.home-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.home-page-container h1 {
+  text-align: center;
+  color: var(--primary-dark-color);
+  margin-bottom: 30px;
+}
+
+.img-GestorTareas {
+  width: 5rem;
+}
+
+.task-form-section,
+.task-list-section {
+  width: 80%;
+  background-color: var(--card-background-color);
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+}
+
+.task-form-section h2,
+.task-list-section h2 {
+  color: var(--primary-color);
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 10px;
+}
+
+.no-tasks-message {
+  text-align: center;
+  color: var(--light-text-color);
+  padding: 20px;
+  font-style: italic;
+}

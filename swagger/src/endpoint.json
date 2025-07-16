@@ -1,0 +1,31 @@
+
+[
+    {
+        "endpoint": "http://localhost:5000/api/tasks",
+        "method": "GET",
+        "title": "Obtener Todas las Tareas",
+        "desc": "Recupera una lista completa de todas las tareas disponibles.",
+        "type": "Tareas"
+    },
+    {
+        "endpoint": "http://localhost:5000/api/tasks",
+        "method": "POST",
+        "title": "Crear Nueva Tarea",
+        "desc": "Crea una nueva tarea en el sistema con los detalles proporcionados.",
+        "type": "Tareas"
+    },
+    {
+        "endpoint": "http://localhost:5000/api/tasks",
+        "method": "PUT",
+        "title": "Actualizar Tarea por ID",
+        "desc": "Actualiza una tarea existente utilizando su ID único. Se necesita el ID en la URL.",
+        "type": "Tareas"
+    },
+    {
+        "endpoint": "http://localhost:5000/api/tasks",
+        "method": "DELETE",
+        "title": "Eliminar Tarea por ID",
+        "desc": "Elimina una tarea específica del sistema utilizando su ID único. Se necesita el ID en la URL.",
+        "type": "Tareas"
+    }
+]

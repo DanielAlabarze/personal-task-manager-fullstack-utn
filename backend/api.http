@@ -1,0 +1,43 @@
+### Get all tasks
+GET http://localhost:5000/api/tasks
+Content-Type: application/json
+
+### Get a single task by ID
+GET http://localhost:5000/api/tasks/6843492c8b3732eed7e56ec0
+Content-Type: application/json
+
+### Create a new task
+POST http://localhost:5000/api/tasks
+Content-Type: application/json
+
+{
+    "title": "Usar Rest Client",
+    "description": "Explorar",
+    "completed": false,
+    "dueDate": "2025-06-20T23:59:00Z"
+}
+
+### Create another task
+POST http://localhost:5000/api/tasks
+Content-Type: application/json
+
+{
+    "title": "Preparar la comidas",
+    "completed": false
+}
+
+
+### Update a task by ID 
+PUT http://localhost:5000/api/tasks/6848776fc3895e1620d57e7c
+Content-Type: application/json
+
+{
+    "title": "Tarea actualizada completamente",
+    "description": "Nueva descripción para la tarea reemplazada",
+    "completed": false,
+    "dueDate": "2025-07-01T12:00:00Z"
+}
+
+### Delete a task by ID
+DELETE http://localhost:5000/api/tasks/684752cc106ed30676d20d32
+Content-Type: application/json
