@@ -71,8 +71,8 @@
 .edit-button,
 .delete-button {
   display: flex;
-  justify-content: center;
-  align-items: space-between;
+  justify-content: space-around;
+
   width: 5.7rem;
   padding: 8px 12px;
   font-size: 0.9rem;
