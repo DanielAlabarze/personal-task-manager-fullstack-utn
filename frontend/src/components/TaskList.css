@@ -94,3 +94,35 @@
 .delete-button:hover {
   background-color: #d32f2f;
 }
+
+@media (max-width: 700px) {
+  .task-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .task-details h3 {
+    font-size: 1.1rem;
+  }
+
+  .task-details p {
+    font-size: 0.9rem;
+  }
+
+  .task-actions {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .edit-button,
+  .delete-button {
+    display: flex;
+    justify-content: space-around;
+
+    width: 5.7rem;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+  }
+}
