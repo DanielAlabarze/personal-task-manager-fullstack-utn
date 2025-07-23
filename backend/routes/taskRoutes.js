@@ -1,8 +1,8 @@
-import express from "express";
+import Router from "express";
 import createTaskControllers from "../controllers/taskController.js";
 
 const createTaskRoutes = (TaskModel) => {
-  const router = express.Router();
+  const router = Router();
   const { getTasks, getTaskById, createTask, updateTask, deleteTask } =
     createTaskControllers(TaskModel);
 
